@@ -1,0 +1,13 @@
+{
+  "name": "danone-automation",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@playwright/test": "^1.47.2",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "install-browsers": "npx playwright install --with-deps chromium",
+    "dl": "node login-download-post.js"
+  }
+}
